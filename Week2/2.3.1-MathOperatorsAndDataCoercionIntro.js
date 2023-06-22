@@ -2,7 +2,7 @@
 
 // Basic Math
 console.log(1 + 2 * 3);
-//7
+7//
 
 console.log((1 + 2) * 3);
 //9
