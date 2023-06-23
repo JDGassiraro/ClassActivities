@@ -14,8 +14,7 @@ console.log(greeting);
 let monkey;
 
 // Print the new variable and its type
-console.log(monkey);
-console.log(typeof monkey);
+console.log(monkey, typeof monkey);
 
 // What type should we expect?
 //I believe a boolean, ope, I was wrong, it came out as undefined.
@@ -26,8 +25,9 @@ monkey = null;
 
 // Print the variable and its type again
 // What type should we expect?
-console.log(monkey);
+console.log(monkey, typeof monkey);
 //I would expect it to still be undefined, since we are just explicitly calling the variable blank instead of it being implicit like it was earlier. Nope, I got null back instead. This is a good learning experience.
+//why does it come back as an object? That I don't understand.
 
 // Try to print a variable that does not exist
 console.log(meepers);
