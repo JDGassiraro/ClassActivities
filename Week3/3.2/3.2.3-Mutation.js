@@ -36,4 +36,3 @@ c["method"];
 console.log(a);
 console.log(b);
 console.log(c);
-//I don't know if this works either. Ask John after class.
