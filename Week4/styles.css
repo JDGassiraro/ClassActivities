@@ -1,0 +1,37 @@
+* {
+    border: 1px dashed black;
+}
+
+h1 {
+    padding: 10px;
+    margin: 10px;
+}
+
+h2{
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+#little {
+    font-size: .2em;
+}
+
+.guy, h1 {
+    color: royalblue; 
+}
+
+.girl {
+    color: rebeccapurple;
+}
+
+.second {
+    color: red;
+}
+
+.second li:last-child {
+    font-size: 2em;
+}
+
+img:hover{
+    color: blue;
+}
