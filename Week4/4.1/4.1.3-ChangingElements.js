@@ -20,4 +20,5 @@ console.log(srcAtt);
 
 // change the font color of the h1 element
 let newColor = document.querySelector("h1").style["font-color"] = "gray";
+
 console.log(newColor);
