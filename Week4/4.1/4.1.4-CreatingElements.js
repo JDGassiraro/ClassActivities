@@ -8,13 +8,14 @@ let noP = document.querySelector(".nav-bar").removeChild(child);
 console.log(child);
 
 // add your new ul element to the nav-bar
-let addUL = document.querySelector("nav-bar").appendChild("newUL");
+let addUL = document.querySelector(".nav-bar").appendChild(newUL);
 
 // create two new list item (li) elements, and add some text to them
 let li1 = document.createElement("li");
-li1.textContent = "Hi!"
+li1.textContent = "Hi!";
 let li2 = document.createElement("li");
-li2.textContent = "Hi!"
-
+li2.textContent = "Thanks for the help Jon!";
 
 // add the li elements to the ul in the nav-bar
+let finalUL = newUL.appendChild(li1);
+let finalUL2 = newUL.appendChild(li2);
