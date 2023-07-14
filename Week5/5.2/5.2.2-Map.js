@@ -248,3 +248,10 @@ const coords = data.map(user => {
 })
 
 // create an array of strings that combine the company's catchPhrase and bs
+const result = data.map(user => {
+  let catchPhrase = user.company.catchPhrase;
+  let bs = user.company.bs;
+
+  return (`${catchPhrase} ${bs}`);
+})
+console.log(result);

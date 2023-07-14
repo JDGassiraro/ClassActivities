@@ -309,10 +309,17 @@ const data = [
 //   "completed": false
 // }
 // filter the to-dos for incomplete tasks
-const incompleteTasks = data.filter((task) => task.completed == false);
-console.log(incompleteTasks);
+const incompleteTasks = data.filter((task) => task.title == true);
+//console.log(incompleteTasks);
 
 // filter for user 6's tasks
-
+const newArray = data.filter(index => {index.userId == 3});
 
 // filter for tasks with a title less than 24 characters long
+const shortTitleArray = data.filter(index => {
+
+  let result = index.title.length < 24;
+
+  return result;
+})
+console.log(shortTitleArray);
