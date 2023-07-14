@@ -271,6 +271,13 @@ data.forEach((worldPosition) => {
 
 
 // create an array of strings that combine the company's catchPhrase and bs
+let stringArray = [];
+data.forEach(user => {
+  let catchPhrase = user.company.catchPhrase;
+  let bs = user.company.bs;
 
+  stringArray.push(`${catchPhrase} ${bs}`);
+})
+console.log(stringArray);
 
 // query the HTML for the class class-week, then use forEach to change the text content
